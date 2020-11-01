@@ -1,0 +1,72 @@
+.List {
+  width: 100%;
+  height: 69vh;
+  background: none;
+  overflow-y: scroll;
+}
+.list {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.List::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.Header {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.HOne {
+  color: rgb(60, 60, 60);
+  font-size: 5vh;
+}
+.Object {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  border-bottom: solid;
+  border-color: rgb(120, 120, 120);
+}
+.Clicker {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.Clicker:focus {
+  outline: none;
+}
+.Namer {
+  color: black;
+  font-size: 2vh;
+  float: left;
+  margin-left: 10px;
+}
+.NamePlace {
+  float: left;
+  width: 25%;
+}
+.ImgPlace {
+  float: left;
+}
+.DatePlace {
+  width: 60%;
+  float: left;
+}
+.Date {
+  font-size: 2vh;
+  float: right;
+}
+.msgPlacer {
+  height: 10px;
+  width: 25%;
+  overflow: hidden;
+  padding: 0;
+  margin-left: 25px;
+}
+.Msgs {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 10px;
+  text-align: left;
+  margin-left: 12px;
+}

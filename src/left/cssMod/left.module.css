@@ -1,0 +1,10 @@
+.Left {
+  height: 100vh;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: rgb(240, 240, 240);
+  border-right: solid;
+  border-color: rgb(60, 60, 60);
+}
